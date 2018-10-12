@@ -1,0 +1,41 @@
+/*                Author: Richard Myatt
+                  Date: 11 October 2018
+
+                  An example of the use of the object tag to import an external
+                  svg file into the html document.  In this case the svg file is
+                  very similar to that used in the 'SGV script example 02' at
+                  https://code.sololearn.com/WIN6AGUnXAQ0/#html.  The svg internal
+                  script itself has been modified slightly for this example in
+                  order to allow two way communication between the external file
+                  and the web page.  See
+                  for details of the svg file.
+
+                  This example is based on a similar example in chapter 13 of
+                  'SVG Essentials' by J. David Eisenberg.
+*/
+
+body {
+  background-color: #eee;
+}
+
+h1, object, label, .notes {
+  margin-left: 20px;
+}
+
+.notes {
+  width: 500px;
+  text-align: justify;
+}
+
+h1	{
+  font-size:	125%;
+}
+
+label	{
+  display:	block;
+}
+
+input {
+  position: absolute;
+  left: 120px;
+}
