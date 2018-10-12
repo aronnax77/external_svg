@@ -1,13 +1,13 @@
 /*                Author: Richard Myatt
                   Date: 11 October 2018
 
-                  An example of the use of the object tag to import an external
+                  An example of the use of the "object" tag to import an external
                   svg file into the html document.  In this case the svg file is
                   very similar to that used in the 'SGV script example 02' at
                   https://code.sololearn.com/WIN6AGUnXAQ0/#html.  The svg internal
                   script itself has been modified slightly for this example in
                   order to allow two way communication between the external file
-                  and the web page.  See
+                  and the web page.  See https://code.sololearn.com/W9RudqQZbQVI/#html
                   for details of the svg file.
 
                   This example is based on a similar example in chapter 13 of

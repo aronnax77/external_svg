@@ -77,6 +77,7 @@
           document.getElementById("eventCatcher").addEventListener("mouseup",	endColorDrag,	false);
         }
 
+        // establish two way communication with the web page
         if	(parent)	{
 								parent.setShirtColor	=	svgSetShirtColor;
 			  }
